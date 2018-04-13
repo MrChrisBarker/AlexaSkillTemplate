@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Tell's you how old random people are",
+          "keywords": [
+            "age, skill, random"
+          ],
+          "name": "How old is",
+          "description": "Tell's you how old random people are"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "YOUR_SAMPLE_TESTING_INSTRUCTIONS",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

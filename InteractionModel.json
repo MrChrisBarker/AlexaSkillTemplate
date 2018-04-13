@@ -1,0 +1,67 @@
+{
+  "languageModel": {
+      "invocationName": "how old is",
+      "intents": [
+          {
+              "name": "AMAZON.RepeatIntent",
+              "slots": [],
+              "samples": []
+          },
+          {
+              "name": "AMAZON.HelpIntent",
+              "slots": [],
+              "samples": []
+          },
+          {
+              "name": "AMAZON.StopIntent",
+              "slots": [],
+              "samples": []
+          },
+          {
+              "name": "AMAZON.CancelIntent",
+              "slots": [],
+              "samples": []
+          },
+          {
+              "name": "PersonAgeIntent",
+              "slots": [
+                  {
+                      "name": "personSlot",
+                      "type": "PERSON_TYPE"
+                  }
+              ],
+              "samples": [
+                  "how old is {personSlot}"
+              ]
+          }
+      ],
+      "types": [
+          {
+              "name": "PERSON_TYPE",
+              "values": [
+                  {
+                      "id": "",
+                      "name": {
+                          "value": "chris",
+                          "synonyms": []
+                      }
+                  },
+                  {
+                    "id": "",
+                    "name": {
+                        "value": "mandy",
+                        "synonyms": []
+                    }
+                },
+                {
+                    "id": "",
+                    "name": {
+                        "value": "madeleine",
+                        "synonyms": []
+                    }
+                }
+              ]
+          }
+      ]
+  }
+}
